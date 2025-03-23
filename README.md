@@ -1,5 +1,6 @@
 # Java-Mysql-Simple-Login-Servlet
 
+
 # JDBC Login & Register Servlet 🚀
 
 This is a **simple web application** that implements **user authentication** (Login & Register) using **JDBC, MySQL, and Servlets**.
@@ -9,7 +10,7 @@ This is a **simple web application** that implements **user authentication** (Lo
 ## 🛠️ Setup Instructions
 
 ### 1️⃣ Prerequisites
-Before running this project, ensure you have:
+Ensure you have the following installed:
 - **Java JDK 8+**
 - **Apache Tomcat 9+**
 - **MySQL Database**
@@ -25,11 +26,12 @@ git clone https://github.com/tarakantaacharya/JDBC_Login_Register_Servlet.git
 cd JDBC_Login_Register_Servlet
 ```
 
+---
 
 ### 3️⃣ Configure the MySQL Database
 
 #### **1. Create a new database**
-Log into MySQL and run:
+Log into MySQL and execute:
 ```sql
 CREATE DATABASE user_db;
 ```
@@ -47,7 +49,7 @@ CREATE TABLE users (
 ```
 
 #### **3. Update Database Credentials**
-Modify **`DBConnection.java`** with your MySQL credentials:
+Modify **`DBConnection.java`** (`src/main/java/DBConnection.java`) with your MySQL credentials:
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/user_db";
 private static final String USER = "root";  // Change this if needed
@@ -89,19 +91,43 @@ http://localhost:8080/JDBC_Login_Register_Servlet/
 
 ---
 
-## 📜 Folder Structure
+## 📂 Folder Structure
 ```
-📦 JDBC_Login_Register_Servlet
- ┣ 📂 src/main/java
- ┃ ┣ 📜 DBConnection.java
- ┃ ┣ 📜 RegisterServlet.java
- ┃ ┣ 📜 LoginServlet.java
- ┣ 📂 webapp
- ┃ ┣ 📜 index.jsp
- ┃ ┣ 📜 login.jsp
- ┃ ┣ 📜 register.jsp
- ┣ 📜 pom.xml (Maven)
+📦 Java-Mysql-Simple-Login-Web-application
+ ┣ 📜 .classpath
+ ┣ 📜 .project
+ ┣ 📜 dockerfile
+ ┣ 📜 pom.xml
  ┣ 📜 README.md
+ ┣ 📜 _config.yml
+ ┣ 📂 src
+ ┃ ┣ 📂 main
+ ┃ ┃ ┣ 📂 webapp
+ ┃ ┃ ┃ ┣ 📜 index.jsp
+ ┃ ┃ ┃ ┣ 📜 login.jsp
+ ┃ ┃ ┃ ┣ 📜 logout.jsp
+ ┃ ┃ ┃ ┣ 📜 register.jsp
+ ┃ ┃ ┃ ┣ 📜 success.jsp
+ ┃ ┃ ┃ ┣ 📜 userRegistration.jsp
+ ┃ ┃ ┃ ┣ 📜 welcome.jsp
+ ┃ ┃ ┃ ┣ 📂 WEB-INF
+ ┃ ┃ ┃ ┃ ┣ 📜 web.xml
+ ┃ ┃ ┃ ┃ ┣ 📂 lib
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜 mysql-connector-j-9.2.0.jar
+ ┣ 📂 target
+```
+
+---
+
+## 📦 Dependencies
+This project requires the following dependencies:
+- **MySQL Connector (JDBC)**
+- **Servlet API**
+- **JSP (Java Server Pages)**
+
+The MySQL Connector JAR file is located in:
+```
+src/main/webapp/WEB-INF/lib/mysql-connector-j-9.2.0.jar
 ```
 
 ---
@@ -126,4 +152,3 @@ For any queries, reach out:
 📧 Email: tarakantaacharya@example.com  
 🔗 GitHub: [tarakantaacharya](https://github.com/tarakantaacharya)
 ```
-

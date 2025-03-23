@@ -149,6 +149,6 @@ Feel free to fork this repository and submit pull requests. Contributions are we
 
 ## 📩 Contact
 For any queries, reach out:  
-📧 Email: tarakantaacharya@example.com  
+📧 Email: acharyatarakanta2002@gmail.com 
 🔗 GitHub: [tarakantaacharya](https://github.com/tarakantaacharya)
 ```

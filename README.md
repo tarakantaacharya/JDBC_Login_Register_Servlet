@@ -128,5 +128,3 @@ For any queries, reach out:
 🔗 GitHub: [tarakantaacharya](https://github.com/tarakantaacharya)
 ```
 
-This `README.md` includes clear and structured **setup instructions** for your project. 🚀
-

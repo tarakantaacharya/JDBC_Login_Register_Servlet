@@ -1,6 +1,6 @@
 # Java-Mysql-Simple-Login-Servlet
 
-```md
+md
 # JDBC Login & Register Servlet 🚀
 
 This is a **simple web application** that implements **user authentication** (Login & Register) using **JDBC, MySQL, and Servlets**.
@@ -26,7 +26,6 @@ git clone https://github.com/tarakantaacharya/JDBC_Login_Register_Servlet.git
 cd JDBC_Login_Register_Servlet
 ```
 
----
 
 ### 3️⃣ Configure the MySQL Database
 

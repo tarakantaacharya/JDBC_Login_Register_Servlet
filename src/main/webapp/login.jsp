@@ -5,8 +5,8 @@
  
  String password = request.getParameter("password"); 
  
- Class.forName ("com.mysql.jdbc.Driver"); 
- Connection con = DriverManager.getConnection("jdbc:mysql://mysql:3306/sample", "root", "Qwerty@12345");
+ Class.forName("com.mysql.cj.jdbc.Driver");
+ Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tarak", "root", "Tarak@2024");
  Statement st = con.createStatement(); 
  ResultSet rs; 
  rs = st.executeQuery("select * from USER where username='" + userName + "' and password='" + password + "'");

@@ -16,7 +16,7 @@
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         // Connect to MySQL
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tarak?serverTimezone=UTC", "root", "Tarak@2024");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tarak?serverTimezone=UTC", "root", "XXXXXXX");
 
         // Check if username or email already exists
         String checkQuery = "SELECT COUNT(*) FROM user WHERE email = ? OR username = ?";

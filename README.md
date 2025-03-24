@@ -3,7 +3,7 @@
 
 # JDBC Login & Register using JSP 🚀
 
-This is a **simple web application** that implements **user authentication** (Login & Register) using **JDBC, MySQL, and Servlets**.
+This is a **simple web application** that implements **user authentication** (Login & Register) using **JDBC, MySQL, and JSP**.
 
 ---
 
@@ -15,15 +15,14 @@ Ensure you have the following installed:
 - **Apache Tomcat 9+**
 - **MySQL Database**
 - **Maven** (for dependency management)
-- **Eclipse/IntelliJ** (Optional, for development)
 
 ---
 
 ### 2️⃣ Clone the Repository
 First, clone the repository to your local machine:
 ```sh
-git clone https://github.com/tarakantaacharya/JDBC_Login_Register_Servlet.git
-cd JDBC_Login_Register_Servlet
+git clone https://github.com/tarakantaacharya/JDBC_Login_Register_JSP.git
+cd JDBC_Login_Register_JSP
 ```
 
 ---
@@ -86,7 +85,7 @@ startup.bat   # Windows
 ### 6️⃣ Access the Application
 Once Tomcat is running, open your browser and visit:
 ```
-http://localhost:8080/JDBC_Login_Register_Servlet/
+http://localhost:8080/JDBC_Login_Register_JSP/
 ```
 
 ---
@@ -133,12 +132,12 @@ src/main/webapp/WEB-INF/lib/mysql-connector-j-9.2.0.jar
 ---
 
 ## 🎯 Technologies Used
-- **Java Servlet & JSP**
+- **Java JSP**
 - **JDBC (Java Database Connectivity)**
 - **MySQL**
 - **Apache Tomcat**
 - **Maven**
-- **HTML, CSS, Bootstrap**
+- **HTML, CSS**
 
 ---
 

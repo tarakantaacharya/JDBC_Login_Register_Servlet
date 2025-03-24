@@ -1,7 +1,7 @@
-# Java-Mysql-Simple-Login-Servlet
+# Java-Mysql-Simple-Login-JSP
 
 
-# JDBC Login & Register Servlet 🚀
+# JDBC Login & Register using JSP 🚀
 
 This is a **simple web application** that implements **user authentication** (Login & Register) using **JDBC, MySQL, and Servlets**.
 
